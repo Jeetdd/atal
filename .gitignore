@@ -1,0 +1,25 @@
+# Secrets
+wp-config.php
+
+# Logs
+error_log
+*.log
+wp-content/wflogs/
+
+# Backups (too large for GitHub, and not source code)
+wp-content/wpvividbackups/
+wp-content/ai1wm-backups/
+wp-content/wpvivid_uploads/
+wp-content/wpvivid_staging/
+*.zip
+.htaccess.bk
+
+# Cache / temp / generated
+wp-content/litespeed/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/upgrade-temp-backup/
+wp-content/temp-write-test-*
+
+# User uploads (media library – back up separately, not in git)
+wp-content/uploads/
